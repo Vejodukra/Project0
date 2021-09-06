@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.justify-content-end {
+    text-align: right; 
+    font-size: 14px;
+    place-content: top;
+}
+
+.headerlogo img {
+    padding: 8px;
+    margin: 10px;
+    float: left;
+    margin-bottom: 15px;
+}
+
+.title {
+color:#d93025;
+font-size: 21px;
+margin-top: 40px;
+margin-left: 20px;
+}
+
+.line {
+    border-bottom: 1px solid #ebebeb;
+    margin-bottom: 30px;
+}
+
+.find {
+    color: rgba(0, 0, 0, 0.76);
+    font-weight: lighter;
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+
+
+label {
+
+    color: #000000;
+    display: inline-block;
+    width: 230px;
+    font-size: 14px;
+    margin-left: 40px;
+}
+
+input {
+    width: 530px;
+    border: rgba(0, 0, 0, 0.267) 1px solid;
+    
+}
+
+.blue-button {
+    width: 140px;
+    font-size: 11px;
+    margin-left: 656px;
+    color: white;
+    background-color: rgb(36, 113, 255);
+    padding: 10px;
+    font-weight: bolder;
+    border-radius: 3px;
+    border: rgb(44, 61, 219) 1px solid;
+}
+
+.blue-button:hover {
+    background-color: rgb(36, 113, 255);
+    box-shadow: inset 0px 0px 10px 5px #00000038 ;
+}
+

@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+.justify-content-end {
+    text-align: right; 
+    font-size: 14px;
+    display: inline-block;
+    padding: 10px;
+    color: #000000d0;
+}
+
+.justify-content-end a {
+    color: #000000d0;
+}
+
+.justify-content-end a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+#middle {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+#logo {
+    text-align: center;
+    padding: 10px;
+    margin-top: 10em;
+}
+
+h6 {
+  margin-left: 220px;
+}
+
+.submitcontainer {
+  display: flex;
+  justify-content: center;
+}
+
+.searchbar {   
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 30px;
+    outline: 0;
+    margin-left: 410px;
+    width: 600px;
+    border-radius: 5em;
+    border: 1px solid #e7e7e7;
+    display: block;
+  }
+
+.searchbar:hover {
+    box-shadow: 0 0 8px 1px #e7e7e7;
+}
+
+.searchbutton {
+    position: relative;
+    margin-top: 45px;
+    margin-bottom: 55px;
+    background-color: #F8F9FA;
+    border-style: none;
+    margin: 20px 4px;
+    padding: 8px 16px;
+    font-size: 0.95em;
+  }
+
+  .searchbutton:hover {
+    box-shadow: 0 0 8px 1px #e7e7e7;
+  }
+  
+#button {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.button {
+    margin-right: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+    background: #e7e7e7;
+    border-radius: 4px;
+    border: #ffffff;
+}
+
+.button:hover {
+    box-shadow: 0 0 1px 2px #e7e7e7;
+    border : 1px solid #e7e7e7;
+}
+
+#language {
+    margin-top: 60px;
+    text-align: center;
+    color: #000000d3;
+}
+
+#language a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+#footer {
+    position: absolute;
+    height: 4em;
+    bottom: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+}
+
+#footer-content {
+    padding-left: 2em;
+    position: relative;
+    padding-top: 0.6em;
+    color: #0000008a;
+    padding-bottom: 0.6em;
+    font-size: 0.9em;
+    border-bottom: 1px solid #dadce0;
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
+  
+}
+
+
+
